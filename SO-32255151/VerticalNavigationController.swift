@@ -27,6 +27,6 @@ import UIKit
 class VerticalNavigationController: UINavigationController {
 
     override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.portrait
+        return .portrait
     }
 }

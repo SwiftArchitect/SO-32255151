@@ -26,7 +26,8 @@ import UIKit
 
 class TabBarControllerDelegate: NSObject, UITabBarControllerDelegate {
 
-    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+    func tabBarController(_ tabBarController: UITabBarController,
+                          didSelect viewController: UIViewController) {
         let orientedViewController = UIViewController()
 
         tabBarController.present(orientedViewController, animated: false) { () -> Void in

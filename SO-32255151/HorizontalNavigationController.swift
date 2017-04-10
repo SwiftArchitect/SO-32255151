@@ -27,6 +27,6 @@ import UIKit
 class HorizontalNavigationController: UINavigationController {
 
     override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.landscape
+        return .landscape
     }
 }
